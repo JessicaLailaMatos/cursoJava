@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gama Academy</title>
+    <link rel="stylesheet" href="..\css\biblioteca_estilos.css">
+</head>
+
+<body>
+
+    <table border="0" width="100%">
+        <tr>
+            <td><a href="..\html\index.html"><img src="..\imagens\gama.png" width="200" height="100"></a></td>
+            <td>QUEM SOMOS</td>
+            <td>CURSOS ONLINTE</td>
+            <td>GAME EXPERIENCE</td>
+            <td>PARA EMPRESAS</td>
+            <td>CONTATO</td>
+            <td>CONTEUDO</td>
+        </tr>
+    </table>
+
+    <form id="formulario_contato" method="post">
+        <fieldset>
+            <legend>Preencha os seus dados abaixo, para fazer os nossos cursos</legend>
+        <label>Nome: </label><input type="text" class="campo_nome" name="nome" required><br><br>
+        <label>Email: </label><input type="email" class="campo_email" name="email"><br><br>
+        <label>Senha: </label><input type="password" class="campo_senha" name="senha"><br><br>
+        <label>Informe o genero: </laberl>
+        <input type="radio" name="opcao" value="Feminino" /> Femininos
+        <input type="radio" name="opcao" value="Masculino" /> Masculinos <br /><br />
+
+
+        <label>Data que deseja fazer o curso </laberl><input type="date" name="data"><br><br>
+        <label>Escolha o curso que deseja fazer:</label>
+        <select>
+            <option value=""></option>
+            <option value="xml">XML</option>
+            <option value="html">HTML</option>
+            <option value="xml">XML</option>
+            <option value="js">JS</option>
+
+        </select><br><br>
+
+        <label>Escolha o período desejado:</label>
+        <input type="checkbox"  name="OPCAO" value="manhã"> Manhã
+        <input type="checkbox"  name="OPCAO" value="tarde"> Tarde
+        <input type="checkbox"  name="OPCAO" value="noite"> Noite<br><br>
+
+
+        <label>Mensagem</label><br><textarea cols="35" rows="5"></textarea><br><br>
+        <label>Envie um comprovante de residência:</label><input type="file" name="arquivo"><br><br>
+
+        <input type="submit" value="Enviar">
+
+    </fieldset>
+    </form>
+
+</body>
+
+</html>

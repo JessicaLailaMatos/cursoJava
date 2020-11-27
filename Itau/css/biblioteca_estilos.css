@@ -1,0 +1,98 @@
+
+
+    h3{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 12px;
+        font-weight: bolder;
+        text-align: center;
+    
+                
+    }
+
+/* p{
+color: green;
+font-size: 14px;
+font-family: Verdana;
+text-align: right;
+
+} */
+
+body{
+    background-color: rgba(206,187,187,0.644);
+}
+.memu{
+    color:blue;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: arial;
+    text-align: center;
+}
+.lista{
+    color:blueviolet;
+    font-size: 12px;
+}
+
+#formulario_contato{
+    background-color: rgb(184, 178, 176);
+}
+
+label{
+    color: purple;
+    font-weight: bold;
+    font-size: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.campo_nome{
+    background-color: rgb(243,243,164);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rebeccapurple;
+    position: absolute;
+    left: 70px;
+    width: 200px;
+}
+
+.campo_email{
+    background-color: rgb(243,243,164);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rebeccapurple;
+    position: absolute;
+    left: 70px;
+    width: 280px;
+  
+}
+
+
+.campo_senha{
+    background-color: rgb(243,243,164);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rebeccapurple;
+    position: absolute;
+    left: 70px;
+    width: 60px;
+}
+
+
+.div1{
+    background-color: red;
+
+}
+
+.div2{
+    background-color: yellow;
+
+}
+
+.div3{
+    background-color: green;
+
+}
+
+.div4{
+    background-color: blue;
+}
+
+.container{
+    border: 3px brown;
+    width: 500%;
+}
